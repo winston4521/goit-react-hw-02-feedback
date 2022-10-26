@@ -4,8 +4,8 @@ import css from './Section.module.css';
 
 export const Section = ({ title, children }) => {
   return (
-    <div className="feedbackFrom">
-      <h2 className="feedbackFrom__title">{title}</h2>
+    <div className={css.feedbackFrom}>
+      <h2 className={css.feedbackFrom__title}>{title}</h2>
       {children}
     </div>
   );
