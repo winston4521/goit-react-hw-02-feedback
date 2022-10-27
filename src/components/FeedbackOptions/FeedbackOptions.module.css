@@ -9,7 +9,7 @@
   cursor: pointer;
   border-radius: 25px;
   box-shadow: 5px 5px 5px rgb(67, 66, 66);
-  background-color: rgb(238, 127, 127);
+  background-color: rgba(250, 138, 10);
   transition: all 0.3s ease;
 }
 
@@ -19,5 +19,6 @@
 
 .controls__btn:hover,
 .controls__btn:focus {
+  
   transform: scaleX(1.1);
 }

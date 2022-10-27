@@ -6,7 +6,7 @@
   margin-top: 30px;
   padding: 24px;
 
-  background-color: rgb(244, 221, 45);
+  background: linear-gradient(to right, rgb(210, 231, 30), rgb(61, 61, 232));
   width: 500px;
   height: auto;
   border: 1px solid black;

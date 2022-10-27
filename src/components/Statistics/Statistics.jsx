@@ -8,27 +8,26 @@ export const Statistics = ({
   bad,
   total,
   positivePercentage,
-  index,
 }) => {
   return (
     <ul className="statistic__list">
-      <li key={index} className={css.statistic__item}>
+      <li className={css.statistic__item}>
         Good
         <span>:{good}</span>
       </li>
-      <li key={index} className={css.statistic__item}>
+      <li className={css.statistic__item}>
         Neutral
         <span>:{neutral}</span>
       </li>
-      <li key={index} className={css.statistic__item}>
+      <li className={css.statistic__item}>
         Bad
         <span>:{bad}</span>
       </li>
-      <li key={index} className={css.statistic__item}>
+      <li className={css.statistic__item}>
         Total
         <span>:{total}</span>
       </li>
-      <li key={index} className={css.statistic__item}>
+      <li className={css.statistic__item}>
         Positive feedback:<span>{positivePercentage}%</span>
       </li>
     </ul>
